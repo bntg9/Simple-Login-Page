@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Outfit, sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 120vh;
+  background: #11212d;
+}
+
+.container {
+  background: #253745;
+  width: 500px;
+  padding: 1.5rem;
+  margin: 50px auto;
+  border-radius: 10px;
+  box-shadow: 0 20px 35px rgba(0, 0, 1, 0.9);
+}
+
+.login-box {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 440px;
+  height: 480px;
+  padding: 30px;
+}
+.login-header {
+  text-align: center;
+  margin: 20px 0 40px 0;
+}
+.login-header header {
+  color: #ccd0cf;
+  font-size: 30px;
+  font-weight: 600;
+}
+.input-box .input-field {
+  width: 100%;
+  height: 60px;
+  font-size: 17px;
+  padding: 0 25px;
+  margin-bottom: 15px;
+  border-radius: 30px;
+  border: none;
+  box-shadow: 0px 5px 10px 1px rgba(0, 0, 0, 0.05);
+  outline: none;
+  transition: 0.3s;
+}
+::placeholder {
+  font-weight: 500;
+  color: #222;
+}
+
+.input-field:focus {
+  width: 105%;
+}
+
+.forgot {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+section {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #4a5c6a;
+}
+
+#check {
+  margin-right: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+section a {
+  color: #4a5c6a;
+}
+.input-submit {
+  position: relative;
+}
+
+.submit-btn {
+  width: 100%;
+  height: 60px;
+  background: #9ba8ab;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.input-submit label {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  color: #000;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background: #ccd0cf;
+  transform: scale(1.05, 1);
+}
+
+.sign-up-link {
+  text-align: center;
+  font-size: 15px;
+  margin-top: 20px;
+  color: #4a5c6a;
+}
+
+.sign-up-link a {
+  color: #ccd0cf;
+  font-weight: 600;
+}
